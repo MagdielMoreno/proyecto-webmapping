@@ -1,4 +1,4 @@
-//Magdiel Moreno, Sergio Felix
+//Magdiel Moreno, Sergio Felix, ISOF
 //Cargar Mapa
 var map = L.map("map").setView([24.797185138215433, -107.39737156889873], 12);
 
