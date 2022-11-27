@@ -35,7 +35,7 @@ var autIcon = new L.icon({
   iconSize: [20, 20],
 });
 
-function icons(feature, layer) {
+function puntos(feature, layer) {
   layer.bindPopup("<h4>" + feature.properties.Nombre + "</h4>");
   layer.setIcon(autIcon);
 }
@@ -48,39 +48,39 @@ var miniMap = new L.Control.MiniMap(osm2, { toggleDisplay: true }).addTo(map);
 
 //Datos Mapa
 var d1 = L.geoJson(d1, {
-  onEachFeature: icons,
+  onEachFeature: puntos,
 });
 
 var d2 = L.geoJson(d2, {
-  onEachFeature: icons,
+  onEachFeature: puntos,
 });
 
 var d3 = L.geoJson(d3, {
-  onEachFeature: icons,
+  onEachFeature: puntos,
 });
 
 var d4 = L.geoJson(d4, {
-  onEachFeature: icons,
+  onEachFeature: puntos,
 });
 
 var d5 = L.geoJson(d5, {
-  onEachFeature: icons,
+  onEachFeature: puntos,
 });
 
 var d6 = L.geoJson(d6, {
-  onEachFeature: icons,
+  onEachFeature: puntos,
 });
 
 var d7 = L.geoJson(d7, {
-  onEachFeature: icons,
+  onEachFeature: puntos,
 });
 
 var d8 = L.geoJson(d8, {
-  onEachFeature: icons,
+  onEachFeature: puntos,
 });
 
 var d9 = L.geoJson(d9, {
-  onEachFeature: icons,
+  onEachFeature: puntos,
 });
 
 function getColor(d) {
@@ -99,8 +99,8 @@ function estilo(feature) {
 }
 
 function popup(feature, layer) {
-  if (feature.properties && feature.properties.NOM_ENT) {
-    layer.bindPopup(feature.properties.NOM_ENT);
+  if (feature.properties && feature.properties.NOM_MUN) {
+    layer.bindPopup(feature.properties.NOM_MUN);
   }
 }
 
