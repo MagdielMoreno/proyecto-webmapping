@@ -1,6 +1,6 @@
 var d4 = {
 "type": "FeatureCollection",
-"name": "puntos",
+"name": "Domesticos-Computadoras-Decoracion",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "Nombre": "11:11 EVENTS", "Latitud": 25.79697058, "Longitud": -108.99971403000001 }, "geometry": { "type": "Point", "coordinates": [ -108.99971403, 25.79697058 ] } },
