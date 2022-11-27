@@ -237,14 +237,14 @@ var capabase = {
   "San Ignacio" : sanignacio,
   "Sinaloa" : sinaloa,
   "Abarrotes, Alimentos, Bebidas, Hielo y Tabaco" : d1,
-  "Tiendas de Autoservicio y Departamentales" : d2,
-  "Productos Textiles, Bisuteria, Accesorios de Vestir y Calzado" : d3,
-  "Articulos para el Cuidado de la Salud" : d4,
-  "Articulos de Papeleria, Esparcimiento y otros de uso Personal" : d5,
-  "Enseres Domesticos, Computadoras, Decoracion de interiores y Usados" : d6,
-  "Ferreteria, Tlapaleria y Vidrios" : d7,
-  "Vehiculos de Motor, Refacciones, Combustibles y Lubricantes" : d8,
-  "Internet, Catalogos Impresos, Television y Similares" : d9
+  "Articulos para el Cuidado de la Salud" : d2,
+  "Tiendas de Autoservicio y Departamentales" : d3,
+  "Enseres Domesticos, Computadoras, Decoracion de interiores y Usados" : d4,
+  "Ferreteria, Tlapaleria y Vidrios" : d5,
+  "Internet, Catalogos Impresos, Television y Similares" : d6,
+  "Articulos de Papeleria, Esparcimiento y otros de uso Personal" : d7,
+  "Productos Textiles, Bisuteria, Accesorios de Vestir y Calzado" : d8,
+  "Vehiculos de Motor, Refacciones, Combustibles y Lubricantes" : d9
 };
 
 L.control.layers(mapabase, capabase).addTo(map);
